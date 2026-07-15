@@ -10,13 +10,22 @@ print('หมวดเมนู: ${categories}');
 print('จำนวนเมนูทั้งหมด: ${menu.length} รายการ');
 print('ราคาลาเต้: ${menu['ลาเต้']} บาท');
 print('---');
-for (int i = 0; i< ; i++){
-    if ({menu.values} > 50 ){
-        print('${menu.keys[]}: ${menu[i]} บาท');
-    }
+//for (List<String> menu in menu){
+//    if ({menu.values} > 50 ){
+//        print('${menu.keys[]}: ${menu[i]} บาท');
+//    }
+//}
 }
-}
-void calcTotal(int price, int qty, double discount){
-    return 
+//void calcTotal(int price, int qty, double discount){
+//    return 
     
-}
+//}
+
+//output
+//ร้าน: Dart Cafe
+//อัตราภาษี (vatRate): 0.07
+//---
+//หมวดเมนู: [เครื่องดื่ม, ของคาว, ของหวาน]
+//จำนวนเมนูทั้งหมด: 4 รายการ
+//ราคาลาเต้: 55 บาท
+//---
